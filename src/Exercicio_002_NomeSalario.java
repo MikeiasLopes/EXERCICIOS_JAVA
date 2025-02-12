@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio001_Nome_Salario {
+public class Exercicio_002_NomeSalario {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Qual é o seu nome?: ");
