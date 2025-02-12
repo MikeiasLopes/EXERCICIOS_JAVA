@@ -6,7 +6,7 @@ public class EXERCICIO_002_NomeSalario {
         System.out.print("Qual é o seu nome?: ");
         String nome = sc.nextLine();
         System.out.print("Salário: ");
-        String salario = sc.nextLine();
+        float salario = sc.nextFloat();
 
         System.out.print("O funcionário(a) " +nome+ " tem um salário de " +salario+ " em junho");
     }
