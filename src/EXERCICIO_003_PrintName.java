@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Print_Name {
+public class EXERCICIO_003_PrintName {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite seu nome: ");
