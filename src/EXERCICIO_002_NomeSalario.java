@@ -6,8 +6,10 @@ public class EXERCICIO_002_NomeSalario {
         //Faça um programa que leia o nome de uma pessoa e mostre uma mensagem de boas-vindas para ela:
 
         Scanner sc = new Scanner(System.in);
+
         System.out.print("Qual é o seu nome?: ");
         String nome = sc.nextLine();
+
         System.out.print("Salário: ");
         float salario = sc.nextFloat();
 
