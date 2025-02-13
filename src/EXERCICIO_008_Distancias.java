@@ -8,6 +8,7 @@ public class EXERCICIO_008_Distancias {
 
 
         Scanner sc = new Scanner(System.in);
+
         System.out.print("Digite uma distância em metros: ");
         float metros = sc.nextFloat();
 
