@@ -28,3 +28,11 @@ public class EXERCICIO_008_Distancias {
 
     }
 }
+
+// Digite uma distância em metros: 100
+// Distância de 0.1 km
+// Distância de 1.0 hm
+// Distância de 10.0 dam
+// Distância de 1000.0 dm
+// Distância de 10000.0 cm
+// Distância de 100000.0 mm
