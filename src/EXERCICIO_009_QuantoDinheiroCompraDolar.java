@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class EXERCICIO_009_QuantoDinheiroCompraDolar {
     public static void main(String[] args) {
 
-        // Faça um programa em Java que leia quanto dinheiro uma pessoa tem na carteira (em R$)
+        // Faça um programa em Java que leia quanto dinheiro uma pessoa tem na carteira em reais
         // e mostre quantos dólares ela pode comprar. Considere US$1,00 = (cotação em 16/02/2025).
 
         Scanner sc = new Scanner(System.in);
