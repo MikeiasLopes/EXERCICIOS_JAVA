@@ -16,3 +16,7 @@ public class EXERCICIO_007_DobroTercaParte {
         System.out.print("O dobro de " +numero+ " é: " +dobro+ "\nA terça parte de " +numero+ " é: " +TercaParte);
     }
 }
+
+// Digite um numero: 3,5
+// O dobro de 3.5 é: 7.0
+// A terça parte de 3.5 é: 1.1666666
