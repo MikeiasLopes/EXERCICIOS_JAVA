@@ -13,6 +13,10 @@ public class EXERCICIO_006_AntecessorSucessor {
         int antecessor = num - 1;
         int sucessor = num + 1;
 
-        System.out.println("O antecessor de " +num+ " é: " +antecessor+ "\nO sucessor de " +num+ " é: " +sucessor);
+        System.out.println("O antecessor de " +num+ " é " +antecessor+ "\nO sucessor de " +num+ " é " +sucessor);
     }
 }
+
+// Digite um número: 9
+// O antecessor de 9 é 8
+// O sucessor de 9 é 10
