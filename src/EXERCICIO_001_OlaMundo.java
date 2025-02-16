@@ -6,3 +6,5 @@ public class EXERCICIO_001_OlaMundo {
         System.out.println("Olá, mundo!");
     }
 }
+
+// Olá, mundo!
