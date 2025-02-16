@@ -15,6 +15,10 @@ public class EXERCICIO_004_SomaNumInteiros {
 
         int soma = num1 + num2;
 
-        System.out.println("Soma: " + soma);
+        System.out.println("A soma entre " + num1 + " e " + num2 + " é igual a " + soma);
     }
 }
+
+// Digite um número inteiro: 8
+// Digite um número inteiro: 5
+// A soma entre 8 e 5 é igual a 13
