@@ -19,3 +19,7 @@ public class EXERCICIO_005_SomaNota {
         System.out.print("A média entre " +nota1+ " e " +nota2+ " é igual a " + media);
     }
 }
+
+// Digite a nota do aluno(a): 4,5
+// Digite a nota do aluno(a): 8,5
+// A média entre 4.5 e 8.5 é igual a 6.5
