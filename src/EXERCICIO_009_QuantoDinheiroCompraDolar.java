@@ -8,7 +8,7 @@ public class EXERCICIO_009_QuantoDinheiroCompraDolar {
 
         Scanner sc = new Scanner(System.in);
 
-        double dolar = 5.70;
+        double dolar = 5.70; // Cotação em 16/02/2025
 
         System.out.print("Quanto dinheiro tenho na carteira: ");
         double real = sc.nextDouble();
