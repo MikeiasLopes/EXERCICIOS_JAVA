@@ -15,5 +15,5 @@ public class EXERCICIO_002_PrintName {
     }
 }
 
-        // Digite seu nome: Mikeias
-        // Olá Mikeias, é um prazer de conhecer!
+// Digite seu nome: Mikeias
+// Olá Mikeias, é um prazer de conhecer!
