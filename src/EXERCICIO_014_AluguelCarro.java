@@ -18,10 +18,10 @@ public class EXERCICIO_014_AluguelCarro {
         double dias = sc.nextDouble();
 
         System.out.print("Informe o valor por quilômetro rodado: ");
-        double PrecoDia = sc.nextDouble();
+        double PrecoKm = sc.nextDouble();
 
         System.out.print("Informe o valor por dia alugado: ");
-        double PrecoKm = sc.nextDouble();
+        double PrecoDia = sc.nextDouble();
 
         double PrecoTotal = (PrecoDia * dias) + (PrecoKm * km );
 
