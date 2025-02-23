@@ -8,10 +8,12 @@ public class EXERCICIO_002_PrintName {
 
         Scanner sc = new Scanner(System.in);
 
+        // Solicita o nome da pessoa.
         System.out.print("Digite seu nome: ");
         String nome = sc.nextLine();
 
-        System.out.print("Olá " +nome+ ", é um prazer de conhecer!"); // Exibe uma mensagem de boas vindas.
+        // Exibe o nome da pessoa junto a uma mensagem de boas vindas.
+        System.out.print("Olá " +nome+ ", é um prazer de conhecer!");
     }
 }
 
