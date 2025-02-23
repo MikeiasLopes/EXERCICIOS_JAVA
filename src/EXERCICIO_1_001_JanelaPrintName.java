@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class EXERCICIO_1_001_JanelaOlaMundo {
+public class EXERCICIO_1_001_JanelaPrintName {
     public static void main(String[] args) {
 
         // Crie uma janela com uma frase e um campo de digitação.
