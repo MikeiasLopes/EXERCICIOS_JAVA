@@ -9,12 +9,18 @@ public class EXERCICIO_012_PrecoPromocional {
 
         Scanner sc = new Scanner(System.in);
 
+        // Solicita o valor do produto.
         System.out.print("Informe o valor do produto: ");
         double preco = sc.nextDouble();
 
+        // Calcula o desconto de 5%.
         double promocao = preco - (preco * 0.05);
 
-        System.out.print("Preço promocional com 5% de desconto é R$ " +promocao);
+        // Exibe o resultado.
+        System.out.printf("Preço promocional com 5%% de desconto é R$%.2f", promocao);
+
+        // Fecha o scanner
+        sc.close();
 
     }
 }
