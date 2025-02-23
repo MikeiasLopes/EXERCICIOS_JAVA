@@ -8,15 +8,24 @@ public class EXERCICIO_013_Salario15Aumento {
 
         Scanner sc = new Scanner(System.in);
 
+        // Solicita o nome do funcionário.
         System.out.print("Digite o nome do funcionário: ");
         String funcionario = sc.nextLine();
 
+        // Solicita o salário do funcionário.
         System.out.print("Informe o salário do funcionário: ");
         double salario = sc.nextDouble();
 
+        // Calcula o aumento do salário em 15%.
         double aumento = salario * 1.15;
 
-        System.out.printf("O salário antigo do funcionário %s era de R$ %.2f com o aumento de 15%% fica R$ %.2f" ,funcionario, salario, aumento);
+        // Exibe o resultado do aumento.
+        System.out.printf("O salário antigo do funcionário %s era de R$ %.2f com o aumento de 15%% fica R$ %.2f"
+                ,funcionario, salario, aumento);
+
+        // Fecha o scanner
+        sc.close();
+
     }
 }
 
