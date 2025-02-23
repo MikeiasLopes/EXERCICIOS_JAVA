@@ -11,7 +11,7 @@ public class EXERCICIO_002_PrintName {
         System.out.print("Digite seu nome: ");
         String nome = sc.nextLine();
 
-        System.out.print("Olá " +nome+ ", é um prazer de conhecer!");
+        System.out.print("Olá " +nome+ ", é um prazer de conhecer!"); // Exibe uma mensagem de boas vindas.
     }
 }
 
