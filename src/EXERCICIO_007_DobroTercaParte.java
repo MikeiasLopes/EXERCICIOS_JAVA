@@ -17,6 +17,10 @@ public class EXERCICIO_007_DobroTercaParte {
 
         // Exibe o resultado.
         System.out.print("O dobro de " +numero+ " é: " +dobro+ "\nA terça parte de " +numero+ " é: " +TercaParte);
+
+        // Fecha o scanner.
+        sc.close();
+
     }
 }
 
