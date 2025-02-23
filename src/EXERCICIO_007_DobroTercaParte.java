@@ -7,12 +7,15 @@ public class EXERCICIO_007_DobroTercaParte {
 
         Scanner sc = new Scanner(System.in);
 
+        // Solicita um número real.
         System.out.print("Digite um numero: ");
         float numero = sc.nextFloat();
 
+        // Calcula o dobro e a terça parte do número.
         float dobro = numero * 2;
         float TercaParte = numero / 3;
 
+        // Exibe o resultado.
         System.out.print("O dobro de " +numero+ " é: " +dobro+ "\nA terça parte de " +numero+ " é: " +TercaParte);
     }
 }
