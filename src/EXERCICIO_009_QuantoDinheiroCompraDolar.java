@@ -21,6 +21,9 @@ public class EXERCICIO_009_QuantoDinheiroCompraDolar {
         // Exibe o resultado.
         System.out.printf("Com R$%.2f, você pode comprar USD%.2f", real, conversao);
 
+        // Fecha o scanner.
+        sc.close();
+
     }
 }
 
