@@ -8,17 +8,21 @@ public class EXERCICIO_009_QuantoDinheiroCompraDolar {
 
         Scanner sc = new Scanner(System.in);
 
-        double dolar = 5.70; // Cotação em 16/02/2025
+        // Cotação em 16/02/2025
+        double dolar = 5.70;
 
+        // Informa a quantidade de dinheiro na carteira.
         System.out.print("Quanto dinheiro tenho na carteira: ");
         double real = sc.nextDouble();
 
+        // Calcula a conversão.
         double conversao = real / dolar;
 
-        System.out.printf("Com %.2f reais, você pode comprar %.2f dólar americano", real, conversao);
+        // Exibe o resultado.
+        System.out.printf("Com R$%.2f, você pode comprar USD%.2f", real, conversao);
 
     }
 }
 
 // Quanto dinheiro tenho na carteira: 100
-// Com 100,00 reais, você pode comprar 17,54 dólar americano
+// Com R$100,00, você pode comprar USD17,54
