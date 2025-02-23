@@ -14,6 +14,10 @@ public class EXERCICIO_002_PrintName {
 
         // Exibe o nome da pessoa junto a uma mensagem de boas vindas.
         System.out.print("Olá " +nome+ ", é um prazer de conhecer!");
+
+        // Fecha o scanner.
+        sc.close();
+
     }
 }
 
