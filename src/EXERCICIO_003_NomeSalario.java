@@ -19,6 +19,9 @@ public class EXERCICIO_003_NomeSalario {
         // Exibe a mensagem com o nome do funcionário e o salário.
         System.out.printf("O funcionário(a) %s tem um salário de R$ %.2f em junho.%n", nome, salario);
 
+        // Fecha o scanner.
+        sc.close();
+
     }
 }
 
