@@ -3,10 +3,10 @@ import javax.swing.*;
 public class EXERCICIO_1_003_ShowMessageDialog {
     public static void main(String[] args) {
 
-        JOptionPane.showMessageDialog(null, " Olá, eu sou Kim, seu prefessor de Álgebra Linear ");
+        JOptionPane.showMessageDialog(null, " ATENÇÃO! ");
 
-        String nome = JOptionPane.showInputDialog("Por favor, qualé seu nome ?:");
-        JOptionPane.showMessageDialog(null, " VAI PENAR");
+        String nome = JOptionPane.showInputDialog(" Digita aí seu nome ");
+        JOptionPane.showMessageDialog(null, " EXCELENTE ");
 
         String numero = JOptionPane.showInputDialog("Digite um número ");
         Byte num1 = Byte.parseByte(numero);
@@ -16,8 +16,9 @@ public class EXERCICIO_1_003_ShowMessageDialog {
         Float num5 = Float.parseFloat(numero);
         Double num6 = Double.parseDouble(numero);
 
-        JOptionPane.showMessageDialog(null, "Os números convertidos são ?\n " + num1 + " \n " +
-                + num2 + " \n " + num3 + " \n " + num4 + " \n " + num5 + " \n " + num6 );
+        JOptionPane.showMessageDialog(null, "Os números convertidos são ?\n " +
+               "Byte: " + num1 + " \n " + "Short: " + num2 + " \n "+ "Integer: " + num3 + " \n "
+                + "Long: " + num4 + " \n " + "Float: " + num5 + " \n " + "Double: " + num6 );
 
     }
 }
