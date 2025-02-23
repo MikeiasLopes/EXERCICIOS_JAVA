@@ -9,18 +9,26 @@ public class EXERCICIO_011_CalculoDelta {
 
         Scanner sc = new Scanner(System.in);
 
+        // Pede para atribuir um valor a A.
         System.out.print("Digite o valor de A: ");
         double a = sc.nextDouble();
 
+        // Pede para atribuir um valor a B.
         System.out.print("Digite o valor de B: ");
         double b = sc.nextDouble();
 
+        // Pede para atribuir um valor a C.
         System.out.print("Digite o valor de C: ");
         double c = sc.nextDouble();
 
-        double d = (b*b) - (4 * +a * +c);
+        // Calcula o valor de delta.
+        double d = (b*b) - (4 * a * c);
 
-        System.out.print("O valor de delta é " +d);
+        System.out.printf("O valor de delta é " + d);
+
+        // Fecha o scanner
+        sc.close();
+
     }
 
 }
