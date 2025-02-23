@@ -9,9 +9,11 @@ public class EXERCICIO_008_Distancias {
 
         Scanner sc = new Scanner(System.in);
 
+        // Solicita a distância em metros.
         System.out.print("Digite uma distância em metros: ");
         float metros = sc.nextFloat();
 
+        // Converte em outras medidas.
         float km = metros / 1000;
         float hm = metros / 100;
         float dam = metros / 10;
@@ -19,6 +21,7 @@ public class EXERCICIO_008_Distancias {
         float cm = metros * 100;
         float mm = metros * 1000;
 
+        // Exibe os resultados.
         System.out.println("Distância de "+km+ " km");
         System.out.println("Distância de "+hm+ " hm");
         System.out.println("Distância de "+dam+ " dam");
