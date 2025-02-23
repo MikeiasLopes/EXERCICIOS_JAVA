@@ -7,12 +7,15 @@ public class EXERCICIO_006_AntecessorSucessor {
 
         Scanner sc = new Scanner(System.in);
 
+        // Solicita um número inteiro.
         System.out.print("Digite um número: ");
         int num = sc.nextInt();
 
+        // Calcula o antecessor e o sucessor.
         int antecessor = num - 1;
         int sucessor = num + 1;
 
+        // Exibe o resultado.
         System.out.println("O antecessor de " +num+ " é " +antecessor+ "\nO sucessor de " +num+ " é " +sucessor);
     }
 }
