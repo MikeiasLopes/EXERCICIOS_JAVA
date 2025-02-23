@@ -9,13 +9,21 @@ public class EXERCICIO_015_DiasTrabalhados {
 
         Scanner sc = new Scanner(System.in);
 
+        // Informa a quantidade de dias trabalhados.
         System.out.print("Informe o quantitativo de dias trabalhados: ");
         double DiasTrabalhados = sc.nextDouble();
 
+        // Calcula o salário (8 * 25 = 200)
         double salario = DiasTrabalhados * 200;
-        System.out.print("Seu salário do mês é R$ " + salario);
+
+        // Exibe o resultado.
+        System.out.printf("Seu salário do mês é R$%.2f", salario);
+
+        // Fecha o scanner
+        sc.close();
+
     }
 }
 
 // Informe o quantitativo de dias trabalhados: 16
-// Seu salário do mês é R$ 3200.0
+// Seu salário do mês é R$3200,00
