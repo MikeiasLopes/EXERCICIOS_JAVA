@@ -17,6 +17,10 @@ public class EXERCICIO_006_AntecessorSucessor {
 
         // Exibe o resultado.
         System.out.println("O antecessor de " +num+ " é " +antecessor+ "\nO sucessor de " +num+ " é " +sucessor);
+
+        // Fecha o scanner.
+        sc.close();
+
     }
 }
 
