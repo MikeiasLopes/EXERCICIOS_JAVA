@@ -10,9 +10,11 @@ public class EXERCICIO_016_TempoVidaFumante {
 
         Scanner sc = new Scanner(System.in);
 
+        // Quer saber quantos cigarros fuma por dia.
         System.out.println("Quantos cigarros fuma por dia?");
         int quantidade = sc.nextInt();
 
+        // Quer saber quantos anos já fumou.
         System.out.println("Quantos anos fumando?");
         int anos = sc.nextInt();
 
@@ -23,9 +25,11 @@ public class EXERCICIO_016_TempoVidaFumante {
         int diasPerdidos = minutosPerdidos / 1440; //Converte de minuto para dia.
         int anoPerdidos = diasPerdidos / 365; // Converte de dia para ano.
 
+        // Exibe o resultado.
         System.out.println("Você já perdeu aproximadamente " + diasPerdidos + " dias de vida, o que equivale a cerca de " +
                 anoPerdidos + " ano(s).");
 
+        // Fecha o scanner.
         sc.close();
 
     }
