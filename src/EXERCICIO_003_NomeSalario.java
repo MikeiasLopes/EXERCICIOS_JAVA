@@ -8,17 +8,20 @@ public class EXERCICIO_003_NomeSalario {
 
         Scanner sc = new Scanner(System.in);
 
+        // Solicita o nome do funcionário
         System.out.print("Nome do funcionário(a): ");
         String nome = sc.nextLine();
 
-        System.out.print("Salário: ");
+        // Solicita o salário do funcionário
+        System.out.print("Informe o salário do funcionário: ");
         float salario = sc.nextFloat();
 
-        System.out.print("O funcionário(a) " + nome + " tem um salário de R$" + salario + " em junho");
+        // Exibe a mensagem com o nome do funcionário e o salário.
+        System.out.printf("O funcionário(a) %s tem um salário de R$ %.2f em junho.%n", nome, salario);
 
     }
 }
 
 // Nome do funcionário(a): Mikeias
-// Salário: 1850,45
-// O funcionário(a) Mikeias tem um salário de R$1850.45 em junho
+// Informe o salário do funcionário: 1850,45
+// O funcionário(a) Mikeias tem um salário de R$ 1850,45 em junho.
