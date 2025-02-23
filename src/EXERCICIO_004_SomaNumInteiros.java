@@ -20,6 +20,10 @@ public class EXERCICIO_004_SomaNumInteiros {
 
         // Exibe a soma dos números inteiros.
         System.out.println("A soma entre " + num1 + " e " + num2 + " é igual a " + soma);
+
+        // Fecha o scanner.
+        sc.close();
+
     }
 }
 
