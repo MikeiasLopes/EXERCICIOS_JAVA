@@ -29,6 +29,9 @@ public class EXERCICIO_008_Distancias {
         System.out.println("Distância de "+cm+ " cm");
         System.out.println("Distância de "+mm+ " mm");
 
+        // Fecha o scanner.
+        sc.close();
+
     }
 }
 
