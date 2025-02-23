@@ -20,6 +20,10 @@ public class EXERCICIO_005_SomaNota {
         float media = (nota1 + nota2) / 2;
 
         System.out.print("A média entre " +nota1+ " e " +nota2+ " é igual a " + media);
+
+        // Fecha o scanner.
+        sc.close();
+
     }
 }
 
