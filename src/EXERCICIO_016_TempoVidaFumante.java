@@ -26,7 +26,7 @@ public class EXERCICIO_016_TempoVidaFumante {
         int anoPerdidos = diasPerdidos / 365; // Converte de dia para ano.
 
         // Exibe o resultado.
-        System.out.println("Você já perdeu aproximadamente " + diasPerdidos + " dias de vida, o que equivale a cerca de " +
+        System.out.println("Você já perdeu " + diasPerdidos + " dias de vida, o que equivale a cerca de " +
                 anoPerdidos + " ano(s).");
 
         // Fecha o scanner.
