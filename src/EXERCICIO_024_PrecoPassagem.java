@@ -9,19 +9,37 @@ public class EXERCICIO_024_PrecoPassagem {
 
         Scanner scanner = new Scanner(System.in);
 
+        //Usuário vai informar a distância que quer percorrer me quilômetros.
         System.out.print("Qual distância deseja percorrer (em Km): ");
         double distancia = scanner.nextDouble();
 
-        double precoPassagem;
+        //Variável preco sem valor (para uso posterior).
+        double preco;
 
+        //Vai verificar se a distância será menor ou igual a 200km.
         if (distancia <= 200) {
-            precoPassagem = distancia * 0.50;
+            //Determina o preço multiplicando a distância com 0,50.
+            preco = distancia * 0.50;
+            //Vai verificar se a distância for maior que 200km.
         } else {
-            precoPassagem = distancia * 0.45;
+            //Determina o preço multiplicando a distância com 0,45.
+            preco = distancia * 0.45;
         }
 
-        System.out.printf("O preço da passagem é: R$ %.2f\n", precoPassagem);
+        //Vai informar ao usuário o preço da passagem final.
+        System.out.printf("O preço da passagem é: R$ %.2f", preco);
 
+        //Fecha o scanner.
         scanner.close();
+
     }
 }
+
+//Qual distância deseja percorrer (em Km): 200
+//O preço da passagem é: R$ 100,00
+
+//Qual distância deseja percorrer (em Km): 400
+//O preço da passagem é: R$ 180,00
+
+//Qual distância deseja percorrer (em Km): 0,1
+//O preço da passagem é: R$ 0,05
