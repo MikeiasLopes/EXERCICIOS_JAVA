@@ -22,8 +22,8 @@ public class EXERCICIO_023_PromocaoDiaMulher {
         System.out.print("Informe a valor de sua compra: ");
         double compra = sc.nextDouble();
 
-        //Variável desconto recebe o valor 0 (criada para uso posterior).
-        double desconto = 0;
+        //Variável desconto sem valor (criada para uso posterior).
+        double desconto;
 
         //Vai verificar se a cliente é do sexo Feminino == F ou == f.
         if (sexo.equals("F") || sexo.equals("f")) {
