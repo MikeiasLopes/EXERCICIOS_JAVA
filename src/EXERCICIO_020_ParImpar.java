@@ -8,16 +8,22 @@ public class EXERCICIO_020_ParImpar {
 
         Scanner sc = new Scanner(System.in);
 
+        //Usuário vai digitar um número inteiro qualquer.
         System.out.print("Digite um número inteiro: ");
         int num = sc.nextInt();
 
+        //Vai verificar se o número, dividido por 2, terá como resultado o resto igual a 2.
         if (num % 2 == 0) {
+            //Vai informar ao usuário se o número é par.
             System.out.print("O número informado é PAR");
         }
+        //Vai verificar se o número, dividido por 2, terá como resultado o resto diferente de 2.
         else {
+            //Vai informar ao usuário que o número é par.
             System.out.print("O número informado é ÍMPAR");
         }
 
+        //Fecha o scanner.
         sc.close();
 
     }
