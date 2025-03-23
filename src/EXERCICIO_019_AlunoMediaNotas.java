@@ -10,25 +10,33 @@ public class EXERCICIO_019_AlunoMediaNotas {
 
         Scanner sc = new Scanner(System.in);
 
+        //Usuário vai digitar o nome do aluno.
         System.out.print("Digite o  nome do aluno: ");
         String nome = sc.nextLine();
 
+        //Usuário vai digitar a primeira nota do aluno.
         System.out.print("Digite a primeira nota: ");
         double nota1 = sc.nextDouble();
 
+        //Usuário vai digitar a segunda nota do aluno.
         System.out.print("Digite a segunda nota: ");
         double nota2 = sc.nextDouble();
 
+        //Vai calcular a média, somando as duas notas e dividindo por 2.
         double media = (nota1 + nota2) / 2;
 
+        //Vai verificar se a nota for igual ou maior que 7.
         if (media >= 7) {
+            //Vai informar ao usuário a média do aluno e se teve um bom aproveitamento de nota.
             System.out.printf("A média de " + nome + " é %.2f\nAproveitamento bom", media);
         }
+        //Vai verificar se a nota for inferior a 7.
         else {
+            //Vai informar ao usuário a média do aluno e se teve um baixo aproveitamento de nota.
             System.out.printf("A média de " + nome + " é %.2f\nAproveitamento baixo", media);
         }
 
-
+        //fecha o scanner.
         sc.close();
 
     }
