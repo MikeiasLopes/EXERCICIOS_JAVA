@@ -8,25 +8,36 @@ public class EXERCICIO_018_IdadeVotoSimNao {
 
         Scanner sc = new Scanner(System.in);
 
+        //Usuário vai informar o ano de nascimento.
         System.out.print("Informe o ano de nascimento: ");
         int AnoNasc = sc.nextInt();
 
-        int AnoAtual = 2025; //Atualizar o ano conforme necessidade
+        //Atualizar o ano conforme necessidade.
+        int AnoAtual = 2025;
 
+        //Realiza a subtração do ano atual com o ano de nascimento.
         int idade = AnoAtual - AnoNasc;
 
+        //Vai verificar se à idade for superior a 130 anos.
         if (idade > 130) {
+            //Vai informar ao usuário que é uma idade improvável.
             System.out.print("Idade improvável, verifique o ano de nascimento.");
 
+        //Vai verificar se à idade é maior ou igual a 16 anos.
         } else if (idade >= 16) {
+            //Vai informar ao usuário que já possui idade para votar.
             System.out.print("Você pode votar!");
 
+        //Se o usuário não se enquadrar nos Ifs acima, será enquadrado pelo else.
         } else {
+            //Vai informar ao usuário que ele não possui idade para votar.
             System.out.print("Você ainda não pode votar.");
 
         }
 
+        //Fecha o scanner.
         sc.close();
+
     }
 }
 
